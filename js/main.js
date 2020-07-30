@@ -52,13 +52,13 @@
        nav = $('#menu-nav-wrap'),
        mainContent = $('#main-404-content'),
 	   mainHeader = $('.main-header'),
-	   quotes = ['The average fuel cost across all vehicles is 14.45 cents per mile, or about 23 miles per gallon.',
-	   'The best selling car of all-time is the Toyota Corolla', 'Ferrari manufactures a maximum of 14 cars a day',
-	   'The most commonly stolen vehicle is the Honda Accord', 'The first cars did not have steering wheels. They were operated by a lever',
-	   'It takes half an ounce of gas to start a car', 'The U.S. consumes about half of the world’s gasoline',
-	   'Adolf Hitler ordered Ferdinand Porsche to manufacture a Volkswagen, which literally means "People Car" in German. This car went on to become the Volkswagen Beetle.',
-	   'The first speeding ticket was issued in 1896. The speed? A whopping 8 MPH. Yeah, definitely nothing to write home about.',
-	   'Electric cars aren’t as new as you might think. In 1900, 38% of all cars were electric.'
+	   quotes = ['"The average fuel cost across all vehicles is 14.45 cents per mile, or about 23 miles per gallon."',
+	   '"The best selling car of all-time is the Toyota Corolla"', '"Ferrari manufactures a maximum of 14 cars a day"',
+	   '"The most commonly stolen vehicle is the Honda Accord"', '"The first cars did not have steering wheels. They were operated by a lever"',
+	   '"It takes half an ounce of gas to start a car"', '"The U.S. consumes about half of the world’s gasoline"',
+	   '"Adolf Hitler ordered Ferdinand Porsche to manufacture a Volkswagen, which literally means "People Car" in German. This car went on to become the Volkswagen Beetle."',
+	   '"The first speeding ticket was issued in 1896. The speed? A whopping 8 MPH."',
+	   '"Electric cars aren’t as new as you might think. In 1900, 38% of all cars were electric."'
 	];
 	   function newquote()
 	   {

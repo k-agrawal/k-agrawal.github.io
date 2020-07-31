@@ -1039,14 +1039,14 @@ header .logo a {
 /* social links */
 #main-404-content .social-links {
 	text-align: right;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 #main-404-content .social-links ul {
 	display: block;
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	font-size: 2rem;
+	font-size: 3rem;
 }
 #main-404-content .social-links ul li {
 	display: inline-block;

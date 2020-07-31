@@ -1030,7 +1030,7 @@ header .logo a {
 #main-404-content footer {
 	position: absolute;
 	width: 100%;
-	min-height: 12rem;
+	min-height: 10rem;
 	bottom: 0;
 	left: 0;
 	z-index: 700;

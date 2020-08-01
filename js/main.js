@@ -58,7 +58,8 @@
 	   '"It takes half an ounce of gas to start a car"', '"The U.S. consumes about half of the world’s gasoline"',
 	   '"Adolf Hitler ordered Ferdinand Porsche to manufacture a Volkswagen, which literally means "People Car" in German. This car went on to become the Volkswagen Beetle."',
 	   '"The first speeding ticket was issued in 1896. The speed? A whopping 8 MPH."',
-	   '"Electric cars aren’t as new as you might think. In 1900, 38% of all cars were electric."'
+	   '"Electric cars aren’t as new as you might think. In 1900, 38% of all cars were electric."','"Carl Benz developed the first automobile in 1885. The speed of the car was 16km per hour."',
+'"About 75% of the cars that Rolls Royce has ever produced are still on the road."'
 	];
 	   function newquote()
 	   {

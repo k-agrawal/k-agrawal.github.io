@@ -499,19 +499,19 @@ select {
 
 progress {
 	/* style rules */
-	width: 300px;   
+	width: 300px; border-radius: 3px;  
   }
   progress::-webkit-progress-bar {
 	/* style rules */
-	width: 300px;   
+	width: 300px;    border-radius: 3px;
   }
   progress::-webkit-progress-value {
 	/* style rules */
-	width: 300px;   
+	width: 300px;    border-radius: 3px;
   }
   progress::-moz-progress-bar {
 	/* style rules */
-	width: 300px;   
+	width: 300px;    border-radius: 3px;
   }
 
 .skill-bars {

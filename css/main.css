@@ -493,9 +493,9 @@ select {
 }
 
 /* IE9 and below */
-.myimage { width: 360px; height: 360px; margin-top: 1.5rem; margin-left: 0rem;}
+.myimage { width: 360px; height: 360px; margin-top: 1.5rem; margin-left: 35rem;}
 
-.myimage2 { width: 200px; height: 150px; margin-top: 1.5rem; margin-left: 16rem;}
+
 
 .quoteDisplay { font-style: oblique;}
 

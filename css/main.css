@@ -495,7 +495,9 @@ select {
 /* IE9 and below */
 .myimage { width: 360px; height: 360px; margin-top: 1.5rem; margin-left: 35rem;}
 
-.myimage::-moz-progress-bar { width: 300px; height: 360px; margin-top: 1.5rem; margin-left: 0rem;}
+@media only screen and (max-width:380px) {
+	.myimage { width: 200px; height: 200px; margin-top: 1.5rem; margin-left: 0rem;}
+}
 
 .quoteDisplay { font-style: oblique;}
 
@@ -1142,5 +1144,6 @@ header .logo a {
 		font-size: 5.2rem;
 	}
 }
+
 
 /*# sourceMappingURL=main.css.map */

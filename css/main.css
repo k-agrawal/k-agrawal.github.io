@@ -495,7 +495,7 @@ select {
 /* IE9 and below */
 .myimage { width: 360px; height: 360px; margin-top: 1.5rem; margin-left: 35rem;}
 
-
+.myimage::-moz-progress-bar { width: 360px; height: 360px; margin-top: 1.5rem; margin-left: 0rem;}
 
 .quoteDisplay { font-style: oblique;}
 

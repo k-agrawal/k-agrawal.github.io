@@ -139,5 +139,29 @@
 	    proximity: 100
 	});  	
  
+  /* ------------------------------------------------------ 
+	 Image Slideshow 
+   ------------------------------------------------------ */
+var slideshow1 = document.getElementById("slideshow1");
+slideshow1.currentSlideIndex = 0;
+showSlides(slideshow1);
+
+var slideshow2 = document.getElementById("slideshow2");
+slideshow2.currentSlideIndex = 0;
+showSlides(slideshow2);
+
+function showSlides(slideshow) {
+	
+var i;
+  var slides = slideshow.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideshow.currentSlideIndex++;
+  if (slideshow.currentSlideIndex > slides.length) {slideshow.currentSlideIndex = 1}
+  slides[slideshow.currentSlideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000, slideshow); // Change image every 2 seconds
+
+}
 
 })(jQuery);

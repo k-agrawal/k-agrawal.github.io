@@ -499,6 +499,20 @@ select {
 	.myimage { width: 200px; height: 200px; margin-top: 1.5rem; margin-left: 0rem;}
 }
 
+@media only screen and (max-width:768px) {
+.myimage { width: 300px; height: 300px; margin-top: 1.5rem; margin-left: 0rem;}	
+}
+@media only screen and (max-width:600px) {
+	.myimage { width: 250px; height: 250px; margin-top: 1.5rem; margin-left: 0rem;}
+}
+@media only screen and (max-width:400px) {
+	.myimage { width: 200px; height: 200px; margin-top: 1.5rem; margin-left: 0rem;}
+}
+@media only screen and (max-width:380px) {
+	.myimage { width: 200px; height: 200px; margin-top: 1.5rem; margin-left: 0rem;}
+}
+
+
 .quoteDisplay { font-style: oblique;}
 
 progress {
